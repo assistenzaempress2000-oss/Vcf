@@ -1,15 +1,34 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biglietto da visita - Claudio Cesari</title>
+  <title>Biglietto da visita - Asia Marzocchi</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #333; }
+    body { 
+      font-family: Arial, sans-serif; 
+      text-align: center; 
+      padding: 50px; 
+    }
+    .overlay-container {
+      position: relative;
+      display: inline-block;
+    }
+    h1 {
+      color: #333;
+      margin: 0;
+    }
+    .overlay-container img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 200px; /* regola la dimensione dell’immagine */
+      opacity: 0.9;     /* trasparenza, cambia se vuoi più o meno visibile */
+    }
     a {
       display: inline-block;
-      margin: 20px;
+      margin: 30px;
       padding: 15px 25px;
       background: #0073e6;
       color: white;
@@ -21,14 +40,16 @@
   </style>
 </head>
 <body>
-  <h1>Claudio Cesari</h1>
-  <p>Commerciale - Empress 2000 S.r.l.</p>
+  <div class="overlay-container">
+    <h1>Asia Marzocchi</h1>
+    <img src="https://drive.google.com/uc?export=view&id=1rwgEecATNxd7Im_R8ptWM7-3wD5ARt40" alt="Logo Asia Marzocchi">
+  </div>
 
-  <a href="https://drive.google.com/uc?export=download&id=1Q6kNic8Y-wxCbp39rCgndJlN315ovZCz">
+  <p>Coordinatrice - Anima Group</p>
+
+  <a href="https://drive.google.com/uc?export=download&id=1NAz87nhcAxKEW7GlEvarqZKi5DzPpY2k">
     📇 Aggiungi ai Contatti
   </a>
 </body>
 </html>
-
-
 
